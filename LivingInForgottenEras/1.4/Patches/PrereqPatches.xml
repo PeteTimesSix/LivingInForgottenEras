@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Club"]/recipeMaker</xpath>
+		<value>
+			<researchPrerequisites>
+			  <li>LIFE_ToolUse</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+</Patch>

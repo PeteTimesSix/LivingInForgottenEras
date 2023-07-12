@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>LIFE_ToolUse</defName>
+    <label>Tool use</label>
+    <description>Use of simple objects as tools.\nForce multiplication, ability to adapt on a short-term scale, and decreased danger of personal bodily harm.</description>
+    <baseCost>15</baseCost>
+    <techLevel>Animal</techLevel>
+    <tags>
+      <li>TribalStart</li>
+      <li>ClassicStart</li>
+    </tags>
+	<researchMods>
+		<li Class="PeteTimesSix.LIFE.ResearchMods.MakePlayerCapacitiesDirty"/>
+	</researchMods>
+  <researchViewX>-2.00</researchViewX>
+  <researchViewY>3.50</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>LIFE_Speech</defName>
+    <label>Language</label>
+    <description>Development of complex language.\nSuperior ability to exchange and retain information, and negotiation outside of familiar groups.</description>
+    <baseCost>15</baseCost>
+    <techLevel>Animal</techLevel>
+    <tags>
+      <li>TribalStart</li>
+      <li>ClassicStart</li>
+    </tags>
+	<researchMods>
+		<li Class="PeteTimesSix.LIFE.ResearchMods.MakePlayerCapacitiesDirty"/>
+	</researchMods>
+  <researchViewX>-2.00</researchViewX>
+  <researchViewY>4.00</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>LIFE_Procioception</defName>
+    <label>Procioception</label>
+    <description>Awareness of the position of the self as a three-dimensional body in a physical space.\nAdaptation to a bipedal, plantigrade stance that does not use the front limbs even in an auxiliary capacity.</description>
+    <baseCost>15</baseCost>
+    <techLevel>Animal</techLevel>
+    <tags>
+      <li>TribalStart</li>
+      <li>ClassicStart</li>
+    </tags>
+	<researchMods>
+		<li Class="PeteTimesSix.LIFE.ResearchMods.MakePlayerCapacitiesDirty"/>
+	</researchMods>
+  <researchViewX>-2.00</researchViewX>
+  <researchViewY>0.50</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>LIFE_FoodPrep</defName>
+    <label>Food handling</label>
+    <description>A reasoned approach to food selection.\nAvoidance of rotten, stale, or otherwise dangerous food. \nSimple preparation of food to aid digestion, such as crushing nuts or separating meat from bone prior to consumption.</description>
+    <baseCost>15</baseCost>
+    <techLevel>Animal</techLevel>
+    <tags>
+      <li>TribalStart</li>
+      <li>ClassicStart</li>
+    </tags>
+	<researchMods>
+		<li Class="PeteTimesSix.LIFE.ResearchMods.MakePlayerCapacitiesDirty"/>
+	</researchMods>
+  <researchViewX>-2.00</researchViewX>
+  <researchViewY>2.00</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>LIFE_FirstAid</defName>
+    <label>Wound dressing</label>
+    <description>Use of leather, plant life and cloth for threatment of wounds.\nA far more effective method of preventing bloodloss when compared to relying on a body's natural ability to form blood clots and regenerate.</description>
+    <baseCost>15</baseCost>
+    <techLevel>Animal</techLevel>
+    <tags>
+      <li>TribalStart</li>
+      <li>ClassicStart</li>
+    </tags>
+  <researchViewX>-2.00</researchViewX>
+  <researchViewY>1.50</researchViewY>
+  </ResearchProjectDef>
+</Defs>

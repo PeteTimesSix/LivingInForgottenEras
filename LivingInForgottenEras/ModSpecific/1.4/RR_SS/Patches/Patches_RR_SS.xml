@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ResearchProjectDef[defName="LIFE_ToolUse"]</xpath>
+		<value>
+			<prerequisites>
+			  <li>RR_Organization</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ResearchProjectDef[defName="LIFE_Speech"]</xpath>
+		<value>
+			<prerequisites>
+			  <li>RR_Organization</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ResearchProjectDef[defName="LIFE_Procioception"]</xpath>
+		<value>
+			<prerequisites>
+			  <li>RR_Organization</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ResearchProjectDef[defName="LIFE_FoodPrep"]</xpath>
+		<value>
+			<prerequisites>
+			  <li>RR_Organization</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ResearchProjectDef[defName="LIFE_FirstAid"]</xpath>
+		<value>
+			<prerequisites>
+			  <li>RR_Organization</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ResearchProjectDef[defName="RR_Organization"]</xpath>
+		<value>
+			<researchViewX>-3.00</researchViewX>
+		</value>
+	</Operation>
+	
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ResearchProjectDef[defName="RR_BasicFoodPrep"]</xpath>
+		<value>
+			<prerequisites>
+			  <li>LIFE_FoodPrep</li>
+			</prerequisites>
+		</value>
+	</Operation>	
+	
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ResearchProjectDef[defName="RR_BasicApparel"]</xpath>
+		<value>
+			<prerequisites>
+			  <li>LIFE_ToolUse</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ResearchProjectDef[defName="RR_BasicMeleeWeapons"]</xpath>
+		<value>
+			<prerequisites>
+			  <li>LIFE_ToolUse</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ResearchProjectDef[defName="RR_BasicRangedWeapons"]</xpath>
+		<value>
+			<prerequisites>
+			  <li>LIFE_ToolUse</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ResearchProjectDef[defName="RR_BasicCraftingFacilities"]</xpath>
+		<value>
+			<prerequisites>
+			  <li>LIFE_ToolUse</li>
+			</prerequisites>
+			<hiddenPrerequisites>
+			  <li>LIFE_Speech</li>
+			</hiddenPrerequisites>
+		</value>
+	</Operation>
+	
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ResearchProjectDef[defName="RR_BasicStructures"]</xpath>
+		<value>
+			<prerequisites>
+			  <li>LIFE_ToolUse</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ResearchProjectDef[defName="RR_BasicFurniture"]</xpath>
+		<value>
+			<prerequisites>
+			  <li>LIFE_ToolUse</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ResearchProjectDef[defName="RR_Agriculture"]</xpath>
+		<value>
+			<prerequisites>
+			  <li>LIFE_Procioception</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	
+	<Operation Class="LIFE.PatchOperationAddOrReplace">
+		<xpath>Defs/ResearchProjectDef[defName="RR_BasicHerbLore"]</xpath>
+		<value>
+			<prerequisites>
+			  <li>LIFE_FirstAid</li>
+			</prerequisites>
+		</value>
+	</Operation>
+</Patch>

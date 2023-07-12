@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Living In Forgotten Eras</name>
+	<author>PeteTimesSix</author>  
+	<packageId>PeteTimesSix.LIFE</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<url>https://github.com/PeteTimesSix/LivingInForgottenEras</url>
+	<modDependencies>
+      <li>
+        <packageId>brrainz.harmony</packageId>
+        <displayName>Harmony</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      </li>
+    </modDependencies>
+	<loadBefore>
+	</loadBefore>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>PeteTimesSix.ResearchReinvented.SteppingStones</li>
+	</loadAfter>
+	<description>
+The animal technology level in Rimworld is criminally underrepresented. Adds a small set of technologies to represent the earliest advancements made by mankind.
+
+Or possibly even the hominids that preceded us.
+	</description>
+</ModMetaData>

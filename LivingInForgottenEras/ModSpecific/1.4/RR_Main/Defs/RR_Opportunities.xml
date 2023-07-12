@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+	<PeteTimesSix.ResearchReinvented.Defs.SpecialResearchOpportunityDef ParentName="SpecialResearchOpportunityBase">
+		<defName>LIFE_Procioception_man</defName>
+		<opportunityType>AnalysePawn</opportunityType>
+		<originalProject>LIFE_Procioception</originalProject>
+		<alternates>
+			<li>Human</li>
+		</alternates>
+	</PeteTimesSix.ResearchReinvented.Defs.SpecialResearchOpportunityDef>
+	
+	<PeteTimesSix.ResearchReinvented.Defs.SpecialResearchOpportunityDef ParentName="SpecialResearchOpportunityBase">
+		<defName>LIFE_FirstAid_man</defName>
+		<opportunityType>AnalyseIngredients</opportunityType>
+		<originalProject>LIFE_FirstAid</originalProject>
+		<alternates>
+			<li>Cloth</li>
+			<li>Leather_Patch</li>
+		</alternates>
+	</PeteTimesSix.ResearchReinvented.Defs.SpecialResearchOpportunityDef>
+	
+	<PeteTimesSix.ResearchReinvented.Defs.SpecialResearchOpportunityDef ParentName="SpecialResearchOpportunityBase">
+		<defName>LIFE_ToolUse_wood</defName>
+		<opportunityType>Analyse</opportunityType>
+		<originalProject>LIFE_ToolUse</originalProject>
+		<alternates>
+			<li>WoodLog</li>
+		</alternates>
+	</PeteTimesSix.ResearchReinvented.Defs.SpecialResearchOpportunityDef>
+</Defs>

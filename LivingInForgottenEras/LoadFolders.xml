@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<loadFolders>
+	<v1.4>
+		<li>/</li>
+		<li>1.4</li>
+		<li IfModActive="PeteTimesSix.ResearchReinvented">ModSpecific/1.4/RR_Main</li>
+		<li IfModActive="PeteTimesSix.ResearchReinvented.SteppingStones">ModSpecific/1.4/RR_SS</li>
+	</v1.4>
+</loadFolders>
